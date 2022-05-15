@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz@8..144&family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&family=Staatliches&display=swap');
 
 *{
     box-sizing: border-box;
@@ -66,27 +66,23 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 30px 10%;
+    margin-right: 550px;
+    align-content: center;
 }
 .text{
     padding: 30px 10%;
     font-size: 30px;
     color: #edf0f1;  
+    margin-bottom: 0%;
 }
 .latest-story-content{
     width: auto;
     height: auto;
     border: 3px solid rgb(255, 255, 255);
     border-radius: 10px;
-    margin-right: 220px;
-    align-content: center;
 }
 .latest-story-content .club{
-    padding: 10px;
-}
-.latest-story-content .club{
-    width: 50%;
-    height: auto;
+    padding: 5px;
 }
 .latest-story-content a{
     transition: all 0.3s ease 0s;
@@ -98,7 +94,12 @@ header{
 
 .latest-story-summary{
     color: #edf0f1;
-    padding: 10px;
-    font-size: 12px;
-    text-align: center;
+    font-size: medium;
+    padding: 5px;
+    font-family: Roboto Mono;
+    padding-bottom: 10px;
+}
+.latest-story-headline{
+    font-size: x-large;
+    padding: 5px;
 }
