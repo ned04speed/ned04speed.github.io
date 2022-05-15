@@ -66,7 +66,6 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 30px 10%;
 }
 .text{
     padding: 30px 10%;
@@ -84,8 +83,20 @@ header{
     height: 2;
     padding: 10px;
 }
+.latest-story-content .club a{
+    transition: all 0.3s ease 0s;
+}
+.latest-story-content .club a:hover{
+    opacity: 50%;
+}
+
+.latest-story-headline{
+    font-size: x-large;
+    padding: 10px;
+}
 
 .latest-story-summary{
     color: #edf0f1;
     padding: 10px;
+    font-size: medium;
 }
