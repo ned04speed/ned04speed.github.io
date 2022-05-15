@@ -1,12 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz@8..144&family=Staatliches&display=swap');
 
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     font-family: Staatliches;
-    max-width: 100%;
-    overflow-x: hidden;
 }
 
 body{
@@ -64,10 +62,10 @@ header{
     font-family: Roboto Flex;
 }
 .latest-story{
+    padding: 30px 10%;
     display: flex;
     justify-content: space-between;
-    padding: 30px 10%;
-    margin-right: auto;
+    align-items: center;
 }
 .text{
     padding: 30px 10%;
@@ -85,10 +83,10 @@ header{
     height: 2;
     padding: 10px;
 }
-.latest-story-content a{
+.latest-story-content .club a{
     transition: all 0.3s ease 0s;
 }
-.latest-story-content a:hover{
+.latest-story-content .club a:hover{
     opacity: 50%;
 }
 
@@ -96,13 +94,9 @@ header{
     font-size: x-large;
     padding: 10px;
 }
-.latest-story-headline a:hover{
-    color: blue;
-}
 
 .latest-story-summary{
     color: #edf0f1;
     padding: 10px;
     font-size: medium;
-    font-family: Roboto Mono;
 }
